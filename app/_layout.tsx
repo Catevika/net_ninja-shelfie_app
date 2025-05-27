@@ -21,8 +21,13 @@ const RouteLayout = () => {
 					name='index'
 					options={{title: 'Home'}}
 				/>
+
 				<Stack.Screen
 					name='(auth)'
+					options={{headerShown: false, animation: 'none'}}
+				/>
+				<Stack.Screen
+					name='(dashboard)'
 					options={{headerShown: false, animation: 'none'}}
 				/>
 			</Stack>

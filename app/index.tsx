@@ -27,13 +27,19 @@ const Home = () => {
 				link={true}>
 				<ThemedText>Login Page</ThemedText>
 			</ThemedLink>
-			<Spacer height={10} />
 
 			<ThemedLink
 				href='/register'
 				style={styles.link}
 				link={true}>
 				<ThemedText>Register Page</ThemedText>
+			</ThemedLink>
+
+			<ThemedLink
+				href='/profile'
+				style={styles.link}
+				link={true}>
+				<ThemedText>Profile Page</ThemedText>
 			</ThemedLink>
 		</ThemedViewView>
 	);
